@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-07-22 18:21:02
+#  创建时间：2023-8-22 18:21:02
 #  模版：v2rayse默认模版
 #  节点数量：77
 #-------------------------------------------------------------#
@@ -13,119 +13,242 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇦🇺AU澳大利亚(youtubevvst科技)_1","server":"au01.jiasuba.click","port":47051,"cipher":"aes-256-gcm","password":"f7126755-abb2-42ce-8c7b-a3c0dc111825"}
-  - {"type":"vmess","name":"🇦🇺AU澳大利亚(youtubevvst科技)_2","server":"139.99.245.164","port":"49921","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇦🇺AU澳大利亚(youtubevvst科技)_3","server":"139.99.245.164","port":"49921","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇦CA加拿大(youtubevvst科技)_1","server":"ca01.jiasuba.click","port":47071,"cipher":"aes-256-gcm","password":"f7126755-abb2-42ce-8c7b-a3c0dc111825"}
-  - {"type":"ss","name":"🇨🇦CA加拿大(youtubevvst科技)_2","server":"172.105.106.242","port":43407,"cipher":"chacha20-ietf-poly1305","password":"5293478683"}
-  - {"type":"ss","name":"🇩🇪DE德国(youtubevvst科技)_1","server":"de01.jiasuba.click","port":47084,"cipher":"aes-256-gcm","password":"f7126755-abb2-42ce-8c7b-a3c0dc111825"}
-  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_2","http-opts":{"path":["/"],"headers":{"Host":["🇩🇪DE德国(youtubevvst科技)"]}},"server":"trk-91.107.192.46.nip.io","port":"443","uuid":"32d7cdd8-abeb-4dcb-b677-9932ada55770","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_1","server":"gb01.jiasuba.click","port":47081,"cipher":"aes-256-gcm","password":"f7126755-abb2-42ce-8c7b-a3c0dc111825"}
-  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_2","server":"139.162.255.106","port":43407,"cipher":"chacha20-ietf-poly1305","password":"5293478683"}
-  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_3","ws-opts":{"path":"/swoole","headers":{"host":"uk22.ulifeai.com"}},"server":"uk22.ulifeai.com","port":"443","uuid":"20151de6-f7b1-4e69-bd53-a2cb1c15b470","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_1","server":"hk10.jiasuba.click","port":47020,"cipher":"aes-256-gcm","password":"f7126755-abb2-42ce-8c7b-a3c0dc111825"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_2","server":"156.225.67.152","port":"46400","uuid":"a7fa8f14-4fb6-4280-9005-d6bbe99c5da9","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_3","server":"qzcn2-01.dajuzi.cc","port":"15598","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_4","server":"qzcn2-01.dajuzi.cc","port":"15598","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_5","server":"qzcn2-01.dajuzi.cc","port":"15596","uuid":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ssr","name":"🇮🇳IN印度(youtubevvst科技)","server":"in1.vfun.icu","port":55064,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"plain","password":"vyunme","obfs-param":"t.me/vpnhat","protocol-param":"17422:TTp0SX"}
-  - {"type":"ssr","name":"🇯🇵JP日本(youtubevvst科技)_1","server":"jp1.vfun.icu","port":55066,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"plain","password":"vyunme","obfs-param":"t.me/vpnhat","protocol-param":"17422:TTp0SX"}
-  - {"type":"ssr","name":"🇯🇵JP日本(youtubevvst科技)_2","server":"jp-am48-6.eqnode.net","port":8081,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"eAokbaDN6"}
-  - {"type":"vmess","name":"🇯🇵JP日本(youtubevvst科技)_3","ws-opts":{"path":"/","headers":{"host":"jp2.mlxg.org"}},"server":"jp.mlxg.org","port":"80","uuid":"c7442852-5a48-4456-8783-b7b8eebbca6c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇳🇱NL荷兰(youtubevvst科技)_1","server":"185.88.141.175","port":8080,"cipher":"chacha20-ietf-poly1305","password":"qGjmI8WQlF0tfhDbkLqGdN"}
-  - {"type":"vmess","name":"🇳🇱NL荷兰(youtubevvst科技)_2","server":"45.199.138.173","port":"42019","uuid":"20b30916-e203-412e-8ec0-900f3acd5128","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇳🇱NL荷兰(youtubevvst科技)_3","server":"45.199.138.133","port":"55523","uuid":"1d474f0b-e78d-4af9-bc4a-a467467bc7a7","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇳🇱NL荷兰(youtubevvst科技)_4","server":"156.249.18.37","port":"48222","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇳🇱NL荷兰(youtubevvst科技)_5","server":"45.199.138.162","port":"49355","uuid":"65ea6727-4461-47a7-a5c4-fef2c67f2f79","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇳🇱NL荷兰(youtubevvst科技)_6","server":"156.249.18.37","port":"48222","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇷🇴RO罗马(youtubevvst科技)","http-opts":{"path":["/"],"headers":{"Host":["🇷🇴RO罗马(youtubevvst科技)"]}},"server":"sw-82.117.255.92.nip.io","port":"443","uuid":"b91bf074-faa1-4ce2-9e9e-e9150a86d0cf","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ssr","name":"🇸🇬SG新加坡(youtubevvst科技)_1","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":" 
-    :  '# #\"\" '\u0007# \t { \t { \u000e{    \u0003\u0003  #\" "}
-  - {"type":"ssr","name":"🇸🇬SG新加坡(youtubevvst科技)_2","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":"
-    :  '# #\"\" '\u0007# \t { \t { \u000e{    \u0003\u0003  #\" "}
-  - {"type":"ssr","name":"🇸🇬SG新加坡(youtubevvst科技)_3","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":"
-    :  '# #\"\" '\u0007#  {  { \u000e{    \u0003\u0003  #\" "}
-  - {"type":"ssr","name":"🇸🇬SG新加坡(youtubevvst科技)_4","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":"Non%%
-    "}
-  - {"type":"trojan","name":"🇸🇬SG新加坡(youtubevvst科技)_5","server":"pqawssg1.aiopen.cfd","port":443,"password":"7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d","udp":true,"skip-cert-verify":true,"sni":"18-140-66-207.nhost.00cdn.com"}
-  - {"type":"trojan","name":"🇸🇬SG新加坡(youtubevvst科技)_6","server":"gsawssg1.aiopen.cfd","port":8443,"password":"7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d","udp":true,"skip-cert-verify":true,"sni":"18-140-66-207.nhost.00cdn.com"}
-  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_7","server":"139.162.10.66","port":43407,"cipher":"chacha20-ietf-poly1305","password":"5293478683"}
-  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_8","server":"170.187.198.19","port":43407,"cipher":"chacha20-ietf-poly1305","password":"5293478683"}
-  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_9","server":"gzdx.acgyt.com","port":38889,"cipher":"chacha20-ietf-poly1305","password":"cbbf1b72-f3e1-48bc-8de1-2c2e2fa62d6f"}
-  - {"type":"vmess","name":"🇸🇬SG新加坡(youtubevvst科技)_10","ws-opts":{"path":"/vsg1.0bad.com/chat","headers":{"host":"panel2.hodorauth.com"}},"server":"dashboard.autoly.ir","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇹🇼TW台湾(youtubevvst科技)","server":"pqhinet1.aiopen.cfd","port":443,"password":"7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d","udp":true,"skip-cert-verify":true,"sni":"18-140-66-207.nhost.00cdn.com"}
-  - {"type":"ssr","name":"🇺🇸US美国(youtubevvst科技)_1","server":"154.9.204.54","port":60000,"protocol":"auth_chain_a","cipher":"dummy","obfs":"plain","password":"52*wentermethod"}
-  - {"type":"ssr","name":"🇺🇸US美国(youtubevvst科技)_2","server":"usa1.vfun.icu","port":443,"protocol":"auth_aes128_sha1","cipher":"aes-256-cfb","obfs":"plain","password":"vyunme","obfs-param":"ab93117422.jd.hk","protocol-param":"17422:TTp0SX"}
-  - {"type":"trojan","name":"🇺🇸US美国(youtubevvst科技)_3","server":"54.224.102.246","port":22222,"password":"telegram-id-directvpn","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk"}
-  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_4","server":"llp-shct.acgyt.com","port":38889,"cipher":"chacha20-ietf-poly1305","password":"16455c00-e945-47fe-915f-93d6aef89538"}
-  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_5","server":"llp-shct.acgyt.com","port":38889,"cipher":"chacha20-ietf-poly1305","password":"9cbf9ac2-e2db-49ef-aaa2-b82f7f9ab5fb"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_6","ws-opts":{"path":"/windows7.ios","headers":{"host":"v1.us1.microsoftdebug.com"}},"server":"microsoftdebug.com","port":"80","uuid":"de4ee5ff-e59f-4437-a457-5d69c652deb3","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_7","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}},"server":"dongtaiwang2.com","port":"443","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}},"server":"dongtaiwang3.com","port":"443","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_9","server":"142.4.104.196","port":"56000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_10","server":"108.166.203.183","port":"44945","uuid":"268a491b-764c-44d1-81a4-30de16130867","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_11","server":"198.2.203.51","port":"44672","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_12","server":"142.4.104.196","port":"56000","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_13","server":"107.148.194.238","port":"55504","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_14","server":"23.225.211.21","port":"42941","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_15","ws-opts":{"path":"/path/1689935243027","headers":{"host":"www.83524650.xyz"}},"server":"137.175.15.211","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_16","ws-opts":{"path":"/path/1689935243027","headers":{"host":"www.54092415.xyz"}},"server":"192.74.232.232","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_17","ws-opts":{"path":"/pq/usfh3?ed=2048","headers":{"host":"usfh3.pqjc.buzz"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"7ad2a5e0-906b-4b3e-97bb-b5f3992cb19d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_18","server":"142.0.139.213","port":"51522","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_19","ws-opts":{"path":"/swoole","headers":{"host":"us28.ulifeai.com"}},"server":"us28.ulifeai.com","port":"443","uuid":"4ef1c7cf-ca74-44d8-b5be-7f076f0191e0","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_20","server":"192.74.231.161","port":"49255","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_21","ws-opts":{"path":"/path/1689849487190","headers":{"host":"www.62976171.xyz"}},"server":"74.217.182.118","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_22","server":"140.99.49.55","port":"55602","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_23","server":"140.99.49.55","port":"55602","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_24","server":"45.12.112.102","port":"48901","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_25","server":"107.148.194.238","port":"55504","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_26","server":"172.247.67.45","port":"50035","uuid":"2278efe4-ad0c-47ce-9480-068608368d76","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_27","server":"23.224.190.237","port":"58022","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_28","server":"45.199.138.133","port":"55523","uuid":"1d474f0b-e78d-4af9-bc4a-a467467bc7a7","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_29","server":"23.225.211.18","port":"42941","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_30","server":"45.58.186.81","port":"51140","uuid":"4a138e19-0595-4d51-83c6-fd276cf7d307","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_31","server":"107.167.30.132","port":"43900","uuid":"58e560b4-bba6-4843-be5f-83321022fa0d","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_32","server":"107.167.12.30","port":"41707","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_33","server":"137.175.18.90","port":"42002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_34","ws-opts":{"path":"/path/1689935243027","headers":{"host":"www.33021824.xyz"}},"server":"137.175.3.232","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_35","server":"137.175.18.90","port":"42002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_36","server":"142.0.135.181","port":"59009","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_37","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}},"server":"cf-lt.sharecentre.online","port":"80","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_38","server":"45.12.112.102","port":"48901","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_39","ws-opts":{"path":"/path/1688983782619","headers":{"host":"www.39960822.xyz"}},"server":"74.217.179.190","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"爱尔兰(youtubevvst科技)","server":"34.241.183.146","port":22222,"password":"telegram-id-privatevpns","udp":true,"skip-cert-verify":true,"sni":"trj.rollingnext.co.uk"}
+  - {"type":"vmess","name":"AE阿联酋(youtubevvst科技)","ws-opts":{"path":"/vpnjantit","headers":{"host":"5.44.42.44"}},"server":"5.44.42.44","port":"10000","uuid":"455cf8ba-3cf6-11ee-b120-d3a3000920f1","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"AE阿酋联(youtubevvst科技)","server":"series-a2-mec.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"u17T3BvpYaaiuW2c"}
+  - {"type":"vmess","name":"CH瑞士(youtubevvst科技)","ws-opts":{"path":"/","headers":{"host":"sls.shabijichang.com"}},"server":"172.67.70.118","port":"80","uuid":"0f8921ec-f691-4e05-aaa2-5d096133b606","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"LU卢森堡(youtubevvst科技)_1","ws-opts":{"path":"/eisasqa","headers":{"host":"foxlux.fovi.tk"}},"server":"cf.fovi.tk","port":"443","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"LU卢森堡(youtubevvst科技)_2","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.tk"}},"server":"zfc.windowsupdate1.com","port":"443","uuid":"6abfe33a-1894-4f62-8879-83b71a35e5fd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"NH巴林(youtubevvst科技)","server":"series-a2-me.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"Bog0ELmMM9DSxDdQ"}
+  - {"type":"ssr","name":"SG新加坡(youtubevvst科技)","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":"None"}
+  - {"type":"ss","name":"TH泰国(youtubevvst科技)","server":"gz.mixi.bio","port":55063,"cipher":"aes-128-gcm","password":"ff6dcca9-5ce0-44ac-ba66-ccf1fa8dcfa3"}
+  - {"type":"vmess","name":"ZA南非(youtubevvst科技)","ws-opts":{"path":"/v2ray-vmess/ntls","headers":{"host":"af.serverfast.pw"}},"server":"vm.af.serverfast.pw","port":"80","uuid":"c2836421-3063-4fdd-b9b8-d54d36333232","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇧🇷BR巴西(youtubevvst科技)","ws-opts":{"path":"/","headers":{"host":"sblarm.kaolll.tech"}},"server":"sblarm.kaolll.tech","port":"80","uuid":"6a5c43d4-e741-4ebc-82b2-9efd3345095b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇨🇦CA加拿大(youtubevvst科技)_1","server":"139.177.193.204","port":44900,"cipher":"chacha20-ietf-poly1305","password":"9490768531"}
+  - {"type":"ss","name":"🇨🇦CA加拿大(youtubevvst科技)_2","server":"139.177.193.204","port":44812,"cipher":"chacha20-ietf-poly1305","password":"5222856088"}
+  - {"type":"vmess","name":"🇨🇦CA加拿大(youtubevvst科技)_3","ws-opts":{"path":"/vpnjantit","headers":{"host":"192.99.247.52"}},"server":"192.99.247.52","port":"10000","uuid":"d95b12fe-3cf6-11ee-bb73-87e67594af6c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦CA加拿大(youtubevvst科技)_4","ws-opts":{"path":"/vpnjantit","headers":{"host":"51.79.70.147"}},"server":"51.79.70.147","port":"10000","uuid":"d8b7b758-3cf6-11ee-850b-cb7dad940270","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇦CA加拿大(youtubevvst科技)_5","ws-opts":{"path":"/vmess/","headers":{"host":"ca1.09vpn.com"}},"server":"ca1.09vpn.com","port":"80","uuid":"5cfe1bd3-7b6e-4d61-892d-8898918413a0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇱CL智利(youtubevvst科技)_1","ws-opts":{"path":"/","headers":{"host":"sdyg.shabijichang.com"}},"server":"fd.shabijichang.com","port":"80","uuid":"0f8921ec-f691-4e05-aaa2-5d096133b606","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇱CL智利(youtubevvst科技)_2","ws-opts":{"path":"/","headers":{"host":"sdygarm.e5outllok.me"}},"server":"sdygarm.e5outllok.me","port":"80","uuid":"6a5c43d4-e741-4ebc-82b2-9efd3345095b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_1","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}},"server":"0000:0000:0000:0000:0000:ffff:2d83:0670","port":"443","uuid":"3BB2247F-0A57-42F1-92F0-0CCFC33FDE9E","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_2","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.bobbykotick.rip"}},"server":"0000:0000:0000:0000:0000:ffff:b994:6a60","port":"443","uuid":"3BB2247F-0A57-42F1-92F0-0CCFC33FDE9E","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_3","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}},"server":"104.31.16.58","port":"443","uuid":"E4C92B68-B275-4002-A8CA-682D3172E49B","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_4","ws-opts":{"path":"/","headers":{"host":"16.v2-ray.cyou"}},"server":"16.v2-ray.cyou","port":"23616","uuid":"05e8418c-b984-3c0f-9f63-5309d36cda49","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_5","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}},"server":"cdnjs.com","port":"443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_6","ws-opts":{"path":"/","headers":{"host":"vmesskhodam.vmesskhodam.top"}},"server":"vmesskhodammtn1.ddns.net","port":"2053","uuid":"04deba07-fb11-48ed-ef0c-ee24109de34f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_7","ws-opts":{"path":"/","headers":{"host":"vceu3.vpn66.eu.org"}},"server":"yd1.992688.xyz","port":"8880","uuid":"2fc248d5-7c81-471d-c2cf-a14e7f5aed2d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇩🇪DE德国(youtubevvst科技)_8","ws-opts":{"path":"/","headers":{"host":"eu2.992688.xyz"}},"server":"yd1.992688.xyz","port":"8080","uuid":"bbfa65cf-236e-4e4f-eb3d-a9e159d3f941","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇫🇷FR法国(youtubevvst科技)_1","ws-opts":{"path":"/","headers":{"host":"bl.shabijichang.com"}},"server":"fd.shabijichang.com","port":"80","uuid":"0f8921ec-f691-4e05-aaa2-5d096133b606","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇫🇷FR法国(youtubevvst科技)_2","ws-opts":{"path":"/vmess/","headers":{"host":"fr1.09vpn.com"}},"server":"fr1.09vpn.com","port":"80","uuid":"29806bf6-c530-4959-9263-50e97c2a1c61","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇫🇷FR法国(youtubevvst科技)_3","ws-opts":{"path":"/vmess/","headers":{"host":"fr2.09vpn.com"}},"server":"fr2.09vpn.com","port":"80","uuid":"eec5cc5c-8c16-44f1-8f75-8c1d5766eab2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇫🇷FR法国(youtubevvst科技)_4","ws-opts":{"path":"/vmess/","headers":{"host":"ge1.09vpn.com"}},"server":"ge1.09vpn.com","port":"80","uuid":"930e8882-169c-4d14-84e1-0aa671611325","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_1","server":"178.79.166.33","port":44900,"cipher":"chacha20-ietf-poly1305","password":"9490768531"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_2","server":"3.11.157.87","port":443,"cipher":"chacha20-ietf-poly1305","password":"mps3FwmDjLrWaOVg"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_3","server":"a.uk.name.ga","port":22666,"cipher":"chacha20-ietf-poly1305","password":"27246255-e5c4-40f4-bdff-6dd026957d66"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_4","server":"series-a1.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"W74XFALLLuw6m5IA"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_5","server":"series-a2.samanehha.co","port":443,"cipher":"chacha20-ietf-poly1305","password":"mps3FwmDjLrWaOVg"}
+  - {"type":"ss","name":"🇬🇧GB英国(youtubevvst科技)_6","server":"uk01.ducati998.top","port":33415,"cipher":"chacha20-ietf-poly1305","password":"a59a1a6b-946c-4533-bb28-e3a986f1ded0"}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_7","ws-opts":{"path":"/","headers":{"host":"13.v2-ray.cyou"}},"server":"13.v2-ray.cyou","port":"23613","uuid":"05e8418c-b984-3c0f-9f63-5309d36cda49","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_8","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}},"server":"23.227.39.110","port":"443","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_9","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"d.freeh1.xyz"}},"server":"23.227.39.80","port":"443","uuid":"6deddb7f-e557-42db-bfa0-cf40b36b27e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_10","ws-opts":{"path":"5.v2-ray.cyou"},"server":"5.v2-ray.cyou","port":"23605","uuid":"e08f84d1-b3dd-358c-b0f7-b089c76ca4d5","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_11","ws-opts":{"path":"/vpnjantit","headers":{"host":"77.68.12.207"}},"server":"77.68.12.207","port":"10000","uuid":"a5a727d8-3cf9-11ee-aad2-3b1091f903f2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇬🇧GB英国(youtubevvst科技)_12","ws-opts":{"path":"/vmess/","headers":{"host":"un1.09vpn.com"}},"server":"un1.09vpn.com","port":"80","uuid":"7c94512a-63d8-4b23-aefd-b896edd72ab7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_1","server":"b.hk.name.ga","port":23833,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_2","server":"cthk2.createmofa.xyz","port":35998,"cipher":"chacha20-ietf-poly1305","password":"b102cfbf-182e-4562-afc2-e6c35d9fc495"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_3","server":"gz.hnytkm.com","port":23833,"cipher":"chacha20-ietf-poly1305","password":"e2a10fa9-a3fb-4628-9d8c-27547d97aab7"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_4","server":"gz.mixi.bio","port":28294,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_5","server":"hk01.xstarship.com","port":55002,"cipher":"chacha20-ietf-poly1305","password":"56485779-a3f4-4158-af72-c125cdd713b8"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_6","server":"hk03.xstarship.com","port":50001,"cipher":"chacha20-ietf-poly1305","password":"56485779-a3f4-4158-af72-c125cdd713b8"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_7","server":"hk1.ducati998.top","port":44560,"cipher":"chacha20-ietf-poly1305","password":"1eb27d80-72e7-4a34-aa7d-3d5fdb026dce"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_8","server":"hk1.ducati998.top","port":44560,"cipher":"chacha20-ietf-poly1305","password":"4f5485e5-eb31-4b51-bffc-02c3dc120c7f"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_9","server":"hk1.ducati998.top","port":44560,"cipher":"chacha20-ietf-poly1305","password":"a59a1a6b-946c-4533-bb28-e3a986f1ded0"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_10","server":"uc.hk.name.ga","port":30006,"cipher":"chacha20-ietf-poly1305","password":"be49a6ab-a4d8-4c74-a5c8-88c7d1164edd"}
+  - {"type":"ss","name":"🇭🇰HK香港(youtubevvst科技)_11","server":"uc.hk.name.ga","port":30006,"cipher":"chacha20-ietf-poly1305","password":"94976e6c-d51b-4545-b21c-6941c61ff660"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_12","server":"11.kccic2pa.xyz","port":"50011","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_13","server":"11.kccic2pa.xyz","port":"50011","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_14","server":"11.kccic2pa.xyz","port":"50011","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_15","ws-opts":{"path":"/vpnjantit","headers":{"host":"141.98.234.8"}},"server":"141.98.234.8","port":"10000","uuid":"6ec6abb4-3cf7-11ee-802e-570edad001d0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_16","server":"156.245.8.241","port":"34996","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_17","ws-opts":{"path":"/ef483582-6269-468c-93af-c511eccb8a69","headers":{"host":"cdn.node.user-sub.pddns-usersdk.com"}},"server":"cdn.node.user-sub.pddns-usersdk.com","port":"13003","uuid":"5f9f4df4-5398-35d1-9a6a-44a8a575832d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_18","server":"gogo.ducati998.top","port":"29112","uuid":"a59a1a6b-946c-4533-bb28-e3a986f1ded0","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_19","server":"gogo.ducati998.top","port":"29112","uuid":"1eb27d80-72e7-4a34-aa7d-3d5fdb026dce","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇭🇰HK香港(youtubevvst科技)_20","ws-opts":{"path":"/hls/us8.m3u8","headers":{"host":"hk2.594888.xyz"}},"server":"hk2.594888.xyz","port":"443","uuid":"8ac636f1-e6b1-319d-97b2-c196a22159ef","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇮🇱IL以色列(youtubevvst科技)","ws-opts":{"path":"/","headers":{"host":"ylsl.shabijichang.com"}},"server":"fd.shabijichang.com","port":"80","uuid":"0f8921ec-f691-4e05-aaa2-5d096133b606","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇮🇳IN印度(youtubevvst科技)","server":"ctin1.createmofa.xyz","port":31999,"cipher":"chacha20-ietf-poly1305","password":"b102cfbf-182e-4562-afc2-e6c35d9fc495"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtubevvst科技)_1","server":"a.jp.name.ga","port":27333,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtubevvst科技)_2","server":"jp01.ducati998.top","port":36288,"cipher":"chacha20-ietf-poly1305","password":"4f5485e5-eb31-4b51-bffc-02c3dc120c7f"}
+  - {"type":"ss","name":"🇯🇵JP日本(youtubevvst科技)_3","server":"shlt.mixi.bio","port":56130,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtubevvst科技)_4","ws-opts":{"path":"/","headers":{"host":"19.v2-ray.cyou"}},"server":"19.v2-ray.cyou","port":"23619","uuid":"05e8418c-b984-3c0f-9f63-5309d36cda49","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇯🇵JP日本(youtubevvst科技)_5","ws-opts":{"path":"/hls/us8.m3u8","headers":{"host":"ips.henyo.us"}},"server":"ips.henyo.us","port":"1443","uuid":"8ac636f1-e6b1-319d-97b2-c196a22159ef","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"🇰🇭KH柬埔寨(youtubevvst科技)","server":"gz.mixi.bio","port":55063,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"ss","name":"🇰🇷KR韩国(youtubevvst科技)_1","server":"a.kr.name.ga","port":34894,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇰🇷KR韩国(youtubevvst科技)_2","server":"abc.websitea.xyz","port":20004,"cipher":"chacha20-ietf-poly1305","password":"d2515d5f-c136-4994-bce3-f512485437f8"}
+  - {"type":"ss","name":"🇰🇷KR韩国(youtubevvst科技)_3","server":"abc.websitea.xyz","port":20004,"cipher":"chacha20-ietf-poly1305","password":"d3dbad16-6233-4400-8829-ea642c67f4ac"}
+  - {"type":"ss","name":"🇰🇷KR韩国(youtubevvst科技)_4","server":"ctkr1.createmofa.xyz","port":32999,"cipher":"chacha20-ietf-poly1305","password":"b102cfbf-182e-4562-afc2-e6c35d9fc495"}
+  - {"type":"ss","name":"🇳🇱NL荷兰(youtubevvst科技)","server":"abc.websitea.xyz","port":20007,"cipher":"chacha20-ietf-poly1305","password":"04a0cb9a-c552-41ce-bf11-1ccb354dff0c"}
+  - {"type":"vmess","name":"🇵🇭PH菲律宾(youtubevvst科技)","ws-opts":{"path":"/vpnjantit","headers":{"host":"103.56.6.45"}},"server":"103.56.6.45","port":"10000","uuid":"d2d387da-3cf7-11ee-8734-cfeec6f493f7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇷🇺俄罗斯(youtubevvst科技)_1","server":"ru.ducati998.top","port":36666,"cipher":"chacha20-ietf-poly1305","password":"1eb27d80-72e7-4a34-aa7d-3d5fdb026dce"}
+  - {"type":"vmess","name":"🇷🇺俄罗斯(youtubevvst科技)_2","ws-opts":{"path":"/jdbp606","headers":{"host":"ru1.mianfenyun012.eu.org"}},"server":"ru1.mianfenyun012.eu.org","port":"443","uuid":"c5964a63-d67c-4668-cdae-6443a1581e76","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇸🇪SE瑞典(youtubevvst科技)","ws-opts":{"path":"/","headers":{"host":"sdgrm.shabijichang.com"}},"server":"fd.shabijichang.com","port":"80","uuid":"0f8921ec-f691-4e05-aaa2-5d096133b606","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_1","server":"172.105.123.9","port":44812,"cipher":"chacha20-ietf-poly1305","password":"5222856088"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_2","server":"a.sg.name.ga","port":33884,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_3","server":"ctsg1.createmofa.xyz","port":37999,"cipher":"chacha20-ietf-poly1305","password":"b102cfbf-182e-4562-afc2-e6c35d9fc495"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_4","server":"gz.mixi.bio","port":53308,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_5","server":"s.sg.vampires-vip.top","port":30006,"cipher":"chacha20-ietf-poly1305","password":"be49a6ab-a4d8-4c74-a5c8-88c7d1164edd"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_6","server":"s.sg.vampires-vip.top","port":30006,"cipher":"chacha20-ietf-poly1305","password":"94976e6c-d51b-4545-b21c-6941c61ff660"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_7","server":"s.sg.vampires-vip.top","port":30006,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_8","server":"sg01.ducati998.top","port":41667,"cipher":"chacha20-ietf-poly1305","password":"a59a1a6b-946c-4533-bb28-e3a986f1ded0"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_9","server":"sg01.ducati998.top","port":41667,"cipher":"chacha20-ietf-poly1305","password":"1eb27d80-72e7-4a34-aa7d-3d5fdb026dce"}
+  - {"type":"ss","name":"🇸🇬SG新加坡(youtubevvst科技)_10","server":"sg01.ducati998.top","port":41667,"cipher":"chacha20-ietf-poly1305","password":"4f5485e5-eb31-4b51-bffc-02c3dc120c7f"}
+  - {"type":"vmess","name":"🇸🇬SG新加坡(youtubevvst科技)_11","ws-opts":{"path":"12.v2-ray.cyou"},"server":"12.v2-ray.cyou","port":"23612","uuid":"e08f84d1-b3dd-358c-b0f7-b089c76ca4d5","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇹🇷TR土耳其(youtubevvst科技)_1","server":"gz.mixi.bio","port":54819,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"ss","name":"🇹🇷TR土耳其(youtubevvst科技)_2","server":"tr01.ducati998.top","port":48930,"cipher":"chacha20-ietf-poly1305","password":"a59a1a6b-946c-4533-bb28-e3a986f1ded0"}
+  - {"type":"ss","name":"🇹🇷TR土耳其(youtubevvst科技)_3","server":"tr02.ducati998.top","port":36945,"cipher":"chacha20-ietf-poly1305","password":"4f5485e5-eb31-4b51-bffc-02c3dc120c7f"}
+  - {"type":"ss","name":"🇹🇼TW台湾(youtubevvst科技)_1","server":"a.tw.name.ga","port":45614,"cipher":"chacha20-ietf-poly1305","password":"e2a10fa9-a3fb-4628-9d8c-27547d97aab7"}
+  - {"type":"ss","name":"🇹🇼TW台湾(youtubevvst科技)_2","server":"gz.mixi.bio","port":35154,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtubevvst科技)_3","server":"08.kccic2pa.xyz","port":"50008","uuid":"d6b5a438-d7a6-4f3e-a1d8-e313392e0098","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtubevvst科技)_4","server":"08.kccic2pa.xyz","port":"50008","uuid":"d6b5a438-d7a6-4f3e-a1d8-e313392e0098","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtubevvst科技)_5","ws-opts":{"path":"/","headers":{"host":"tw1-vds1.anyhk.co"}},"server":"tw1-vds1.anyhk.co","port":"443","uuid":"dfe0414d-f727-4e94-bb44-ac8caf782512","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtubevvst科技)_6","ws-opts":{"path":"/","headers":{"host":"tw1-vds1.anyhk.co"}},"server":"tw1-vds1.anyhk.co","port":"443","uuid":"ff6dcca9-5ce0-44ac-ba66-ccf1fa8dcfa3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇹🇼TW台湾(youtubevvst科技)_7","ws-opts":{"path":"/hls/us8.m3u8","headers":{"host":"twtw.henyo.us"}},"server":"twtw.henyo.us","port":"443","uuid":"8ac636f1-e6b1-319d-97b2-c196a22159ef","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_1","server":"137.175.86.187","port":"56651","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_2","server":"86.38.4.73","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_3","server":"a.us.name.ga","port":38322,"cipher":"chacha20-ietf-poly1305","password":"e2a10fa9-a3fb-4628-9d8c-27547d97aab7"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_4","server":"a.us.name.ga","port":44432,"cipher":"chacha20-ietf-poly1305","password":"361d7778-37bd-432f-a0ed-565198904bc5"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_5","server":"abc.websitea.xyz","port":20001,"cipher":"chacha20-ietf-poly1305","password":"04a0cb9a-c552-41ce-bf11-1ccb354dff0c"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_6","server":"arm.gougouvpn.xyz","port":7724,"cipher":"chacha20-ietf-poly1305","password":"5ae3363e-252a-4466-8eba-3e2efb90c434"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_7","server":"ctus1.createmofa.xyz","port":33999,"cipher":"chacha20-ietf-poly1305","password":"b102cfbf-182e-4562-afc2-e6c35d9fc495"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_8","server":"shlt.mixi.bio","port":57317,"cipher":"aes-128-gcm","password":"322c0130-05e4-4f4a-893b-24c683267d40"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_9","server":"us01.ducati998.top","port":29919,"cipher":"chacha20-ietf-poly1305","password":"1eb27d80-72e7-4a34-aa7d-3d5fdb026dce"}
+  - {"type":"ss","name":"🇺🇸US美国(youtubevvst科技)_10","server":"www.dongtaiwang4.com","port":44008,"cipher":"aes-256-gcm","password":"dongtaiwang.com"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_11","server":"01.kccic2pa.xyz","port":"50001","uuid":"d6b5a438-d7a6-4f3e-a1d8-e313392e0098","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_12","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"103.160.204.22","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_13","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"103.160.204.223","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_14","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"103.160.204.28","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_15","ws-opts":{"path":"/vpnjantit","headers":{"host":"107.175.221.56"}},"server":"107.175.221.56","port":"10000","uuid":"f2a0b9e6-3cf9-11ee-b911-00163cce34e7","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_16","server":"120.233.43.74","port":"49673","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_17","server":"120.233.43.74","port":"49673","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_18","server":"120.233.43.74","port":"49673","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_19","server":"137.175.86.187","port":"56651","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_20","server":"137.175.86.187","port":"56651","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_21","ws-opts":{"path":"14.v2-ray.cyou"},"server":"14.v2-ray.cyou","port":"23614","uuid":"e08f84d1-b3dd-358c-b0f7-b089c76ca4d5","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_22","server":"140.99.128.99","port":"58402","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_23","server":"140.99.128.99","port":"58402","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_24","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"141.101.122.144","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_25","ws-opts":{"path":"15.v2-ray.cyou"},"server":"15.v2-ray.cyou","port":"23615","uuid":"e08f84d1-b3dd-358c-b0f7-b089c76ca4d5","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_26","ws-opts":{"path":"/blue06","headers":{"host":"ecc.vtcss.top"}},"server":"162.159.133.196","port":"80","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_27","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}},"server":"172.64.132.22","port":"80","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_28","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"172.64.198.131","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_29","ws-opts":{"path":"/shirker","headers":{"host":"dp4.ilovescp.com"}},"server":"172.64.87.129","port":"80","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_30","ws-opts":{"path":"/blue06","headers":{"host":"ecc.vtcss.top"}},"server":"172.67.125.0","port":"80","uuid":"dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_31","ws-opts":{"path":"/shirker","headers":{"host":"ca.ilovescp.com"}},"server":"172.67.196.139","port":"80","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_32","ws-opts":{"path":"/blue03","headers":{"host":"ecc.vtcss.top"}},"server":"188.114.99.11","port":"8080","uuid":"74a890ab-5c4b-4f35-aea4-5fc2459bebd2","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_33","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"2.freek1.xyz"}},"server":"23.227.39.111","port":"443","uuid":"25a9f3b9-1e6d-40bd-968b-e0818c1b196f","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_34","server":"40.kccic2pa.xyz","port":"50040","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_35","server":"40.kccic2pa.xyz","port":"50040","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_36","server":"40.kccic2pa.xyz","port":"50040","uuid":"4106808d-e215-4934-8f5e-0bc4c5b5e95c","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_37","server":"45.199.138.182","port":"45695","uuid":"d3133484-f2bf-4b0c-8d38-f8e645b65687","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_38","ws-opts":{"path":"/vpnjantit","headers":{"host":"45.76.147.196"}},"server":"45.76.147.196","port":"10000","uuid":"9a86a50a-3cf8-11ee-a4a3-c76f026962d1","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_39","ws-opts":{"path":"/vpnjantit","headers":{"host":"64.176.4.154"}},"server":"64.176.4.154","port":"10000","uuid":"f133bfac-3cf6-11ee-b394-77ae2a956d8b","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_40","ws-opts":{"path":"/vpnjantit","headers":{"host":"85.239.52.97"}},"server":"85.239.52.97","port":"10000","uuid":"bd71d458-3cf9-11ee-9da3-00163c4ca4b8","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_41","ws-opts":{"path":"/mp4","headers":{"host":"1.wuxianliulianng.xyz"}},"server":"a2.wuxianliulianng.xyz","port":"443","uuid":"3d0f8b1a-5c92-4d83-8ed6-ad9fcaa6cae1","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_42","ws-opts":{"path":"/sometimesnaive","headers":{"host":"2.wuxianliulianng.xyz"}},"server":"b2.wuxianliulianng.xyz","port":"443","uuid":"c0949fdc-f58e-4b02-8c6c-54c5f2e1d848","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_43","ws-opts":{"path":"a7ee85f4","headers":{"host":"dd2.1808.cf"}},"server":"cf.1808.cf","port":"30003","uuid":"a7ee85f4-2528-412e-994f-ce65f54754e4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_44","ws-opts":{"path":"/deUnesty","headers":{"host":"de-unesty.fishcloudcdn.top"}},"server":"de-unesty.fishcloudcdn.top","port":"8880","uuid":"8a890ca0-4804-3750-b434-7d354b927a1a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_45","ws-opts":{"path":"/","headers":{"host":"vcus2.vpn66.eu.org"}},"server":"lt1.992688.xyz","port":"8880","uuid":"e5f9073b-a23c-487f-b2a8-e5eb6abad21d","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_46","ws-opts":{"path":"/ucreiruitu","headers":{"host":"pather.redgo.top"}},"server":"pather.redgo.top","port":"8080","uuid":"760190f1-29ff-3ae2-be32-6d7e126e5b12","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_47","ws-opts":{"path":"/cuvruitu","headers":{"host":"pather.redgo.top"}},"server":"pather.redgo.top","port":"2083","uuid":"760190f1-29ff-3ae2-be32-6d7e126e5b12","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_48","ws-opts":{"path":"/tyunckr","headers":{"host":"pathon.redgo.top"}},"server":"pathon.redgo.top","port":"2087","uuid":"760190f1-29ff-3ae2-be32-6d7e126e5b12","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_49","ws-opts":{"path":"/ctlpoulr","headers":{"host":"pathon.redgo.top"}},"server":"pathon.redgo.top","port":"8880","uuid":"760190f1-29ff-3ae2-be32-6d7e126e5b12","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_50","ws-opts":{"path":"a7ee85f4","headers":{"host":"dd2.1808.cf"}},"server":"tk.jiankangma.tk","port":"443","uuid":"a7ee85f4-2528-412e-994f-ce65f54754e4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_51","ws-opts":{"path":"/us","headers":{"host":"us-ddp.fishcloudcdn.top"}},"server":"us-ddp.fishcloudcdn.top","port":"8880","uuid":"38d0e106-7d82-33bb-ac4e-5c9b061d5755","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_52","ws-opts":{"path":"/us","headers":{"host":"us-ddp.fishcloudcdn.top"}},"server":"us-ddp.fishcloudcdn.top","port":"8880","uuid":"8a890ca0-4804-3750-b434-7d354b927a1a","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US美国(youtubevvst科技)_53","ws-opts":{"path":"/","headers":{"host":"haxus3.vpn66.eu.org"}},"server":"yd1.992688.xyz","port":"8880","uuid":"27998387-fc3b-4237-9ac9-aba5d00bbd6e","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -136,7 +259,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -176,39 +309,104 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -219,7 +417,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -259,39 +467,104 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -302,7 +575,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -342,38 +625,103 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -384,7 +732,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -424,38 +782,103 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -466,7 +889,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -506,38 +939,103 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -548,7 +1046,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -588,7 +1096,20 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -611,32 +1132,84 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_1
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_2
-      - 🇦🇺AU澳大利亚(youtubevvst科技)_3
+      - AE阿联酋(youtubevvst科技)
+      - AE阿酋联(youtubevvst科技)
+      - CH瑞士(youtubevvst科技)
+      - LU卢森堡(youtubevvst科技)_1
+      - LU卢森堡(youtubevvst科技)_2
+      - NH巴林(youtubevvst科技)
+      - SG新加坡(youtubevvst科技)
+      - TH泰国(youtubevvst科技)
+      - ZA南非(youtubevvst科技)
+      - 🇧🇷BR巴西(youtubevvst科技)
       - 🇨🇦CA加拿大(youtubevvst科技)_1
       - 🇨🇦CA加拿大(youtubevvst科技)_2
+      - 🇨🇦CA加拿大(youtubevvst科技)_3
+      - 🇨🇦CA加拿大(youtubevvst科技)_4
+      - 🇨🇦CA加拿大(youtubevvst科技)_5
+      - 🇨🇱CL智利(youtubevvst科技)_1
+      - 🇨🇱CL智利(youtubevvst科技)_2
       - 🇩🇪DE德国(youtubevvst科技)_1
       - 🇩🇪DE德国(youtubevvst科技)_2
+      - 🇩🇪DE德国(youtubevvst科技)_3
+      - 🇩🇪DE德国(youtubevvst科技)_4
+      - 🇩🇪DE德国(youtubevvst科技)_5
+      - 🇩🇪DE德国(youtubevvst科技)_6
+      - 🇩🇪DE德国(youtubevvst科技)_7
+      - 🇩🇪DE德国(youtubevvst科技)_8
+      - 🇫🇷FR法国(youtubevvst科技)_1
+      - 🇫🇷FR法国(youtubevvst科技)_2
+      - 🇫🇷FR法国(youtubevvst科技)_3
+      - 🇫🇷FR法国(youtubevvst科技)_4
       - 🇬🇧GB英国(youtubevvst科技)_1
       - 🇬🇧GB英国(youtubevvst科技)_2
       - 🇬🇧GB英国(youtubevvst科技)_3
+      - 🇬🇧GB英国(youtubevvst科技)_4
+      - 🇬🇧GB英国(youtubevvst科技)_5
+      - 🇬🇧GB英国(youtubevvst科技)_6
+      - 🇬🇧GB英国(youtubevvst科技)_7
+      - 🇬🇧GB英国(youtubevvst科技)_8
+      - 🇬🇧GB英国(youtubevvst科技)_9
+      - 🇬🇧GB英国(youtubevvst科技)_10
+      - 🇬🇧GB英国(youtubevvst科技)_11
+      - 🇬🇧GB英国(youtubevvst科技)_12
       - 🇭🇰HK香港(youtubevvst科技)_1
       - 🇭🇰HK香港(youtubevvst科技)_2
       - 🇭🇰HK香港(youtubevvst科技)_3
       - 🇭🇰HK香港(youtubevvst科技)_4
       - 🇭🇰HK香港(youtubevvst科技)_5
+      - 🇭🇰HK香港(youtubevvst科技)_6
+      - 🇭🇰HK香港(youtubevvst科技)_7
+      - 🇭🇰HK香港(youtubevvst科技)_8
+      - 🇭🇰HK香港(youtubevvst科技)_9
+      - 🇭🇰HK香港(youtubevvst科技)_10
+      - 🇭🇰HK香港(youtubevvst科技)_11
+      - 🇭🇰HK香港(youtubevvst科技)_12
+      - 🇭🇰HK香港(youtubevvst科技)_13
+      - 🇭🇰HK香港(youtubevvst科技)_14
+      - 🇭🇰HK香港(youtubevvst科技)_15
+      - 🇭🇰HK香港(youtubevvst科技)_16
+      - 🇭🇰HK香港(youtubevvst科技)_17
+      - 🇭🇰HK香港(youtubevvst科技)_18
+      - 🇭🇰HK香港(youtubevvst科技)_19
+      - 🇭🇰HK香港(youtubevvst科技)_20
+      - 🇮🇱IL以色列(youtubevvst科技)
       - 🇮🇳IN印度(youtubevvst科技)
       - 🇯🇵JP日本(youtubevvst科技)_1
       - 🇯🇵JP日本(youtubevvst科技)_2
       - 🇯🇵JP日本(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_1
-      - 🇳🇱NL荷兰(youtubevvst科技)_2
-      - 🇳🇱NL荷兰(youtubevvst科技)_3
-      - 🇳🇱NL荷兰(youtubevvst科技)_4
-      - 🇳🇱NL荷兰(youtubevvst科技)_5
-      - 🇳🇱NL荷兰(youtubevvst科技)_6
-      - 🇷🇴RO罗马(youtubevvst科技)
+      - 🇯🇵JP日本(youtubevvst科技)_4
+      - 🇯🇵JP日本(youtubevvst科技)_5
+      - 🇰🇭KH柬埔寨(youtubevvst科技)
+      - 🇰🇷KR韩国(youtubevvst科技)_1
+      - 🇰🇷KR韩国(youtubevvst科技)_2
+      - 🇰🇷KR韩国(youtubevvst科技)_3
+      - 🇰🇷KR韩国(youtubevvst科技)_4
+      - 🇳🇱NL荷兰(youtubevvst科技)
+      - 🇵🇭PH菲律宾(youtubevvst科技)
+      - 🇷🇺俄罗斯(youtubevvst科技)_1
+      - 🇷🇺俄罗斯(youtubevvst科技)_2
+      - 🇸🇪SE瑞典(youtubevvst科技)
       - 🇸🇬SG新加坡(youtubevvst科技)_1
       - 🇸🇬SG新加坡(youtubevvst科技)_2
       - 🇸🇬SG新加坡(youtubevvst科技)_3
@@ -647,7 +1220,17 @@ proxy-groups:
       - 🇸🇬SG新加坡(youtubevvst科技)_8
       - 🇸🇬SG新加坡(youtubevvst科技)_9
       - 🇸🇬SG新加坡(youtubevvst科技)_10
-      - 🇹🇼TW台湾(youtubevvst科技)
+      - 🇸🇬SG新加坡(youtubevvst科技)_11
+      - 🇹🇷TR土耳其(youtubevvst科技)_1
+      - 🇹🇷TR土耳其(youtubevvst科技)_2
+      - 🇹🇷TR土耳其(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_1
+      - 🇹🇼TW台湾(youtubevvst科技)_2
+      - 🇹🇼TW台湾(youtubevvst科技)_3
+      - 🇹🇼TW台湾(youtubevvst科技)_4
+      - 🇹🇼TW台湾(youtubevvst科技)_5
+      - 🇹🇼TW台湾(youtubevvst科技)_6
+      - 🇹🇼TW台湾(youtubevvst科技)_7
       - 🇺🇸US美国(youtubevvst科技)_1
       - 🇺🇸US美国(youtubevvst科技)_2
       - 🇺🇸US美国(youtubevvst科技)_3
@@ -687,7 +1270,20 @@ proxy-groups:
       - 🇺🇸US美国(youtubevvst科技)_37
       - 🇺🇸US美国(youtubevvst科技)_38
       - 🇺🇸US美国(youtubevvst科技)_39
-      - 爱尔兰(youtubevvst科技)
+      - 🇺🇸US美国(youtubevvst科技)_40
+      - 🇺🇸US美国(youtubevvst科技)_41
+      - 🇺🇸US美国(youtubevvst科技)_42
+      - 🇺🇸US美国(youtubevvst科技)_43
+      - 🇺🇸US美国(youtubevvst科技)_44
+      - 🇺🇸US美国(youtubevvst科技)_45
+      - 🇺🇸US美国(youtubevvst科技)_46
+      - 🇺🇸US美国(youtubevvst科技)_47
+      - 🇺🇸US美国(youtubevvst科技)_48
+      - 🇺🇸US美国(youtubevvst科技)_49
+      - 🇺🇸US美国(youtubevvst科技)_50
+      - 🇺🇸US美国(youtubevvst科技)_51
+      - 🇺🇸US美国(youtubevvst科技)_52
+      - 🇺🇸US美国(youtubevvst科技)_53
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
